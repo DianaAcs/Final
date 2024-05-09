@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="shortcut icon" href="./assets//img/Logo.svg" type="image/x-icon">
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="./assets/img/logo.png" class="nav__logo-img" />
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link active-link">Productos</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link active-link"> Nuevo</a>
+            </li>
+            <li class="nav__item">
+              <a href="#footer" class="nav__link active-link"> Acerca de </a>
+            </li>
+            <li class="nav__item">
+              <a href="#new" class="nav__link active-link"> Registrarse </a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- /*Menu*/ -->
+      <section class="home container" id="home">
+        <div class="swiper home-swiper">
+          <div class="swiper-wrapper">
+            <section class="swiper-slide">
+              <div class="home__content grid">
+                <article class="content_burbuja">
+                  <img class="box" src="./assets/img/splash1.jpg" />
+                  
+                </article>
+                <div class="home__data">
+                  <h3 class="home__subtitle">Huele bien con nosotros </h3>
+                  <h1 class="home__title">
+                    SOLO <br />
+
+                    HOY<br />
+                    !!!
+                  </h1>
+                  <p class="home__description">
+                    ¡Renueva tu rutina de fragancias con los irresistibles splashes de Bath and Body Works! Sumérgete en una explosión de frescura y aroma que te acompañará todo el día. Nuestras fragancias están cuidadosamente elaboradas para ofrecerte una experiencia sensorial única.
+                    <br><br>
+                    Además, ¡aprovecha nuestra oferta especial por tiempo limitado! Compra dos body mist y obtén el tercero ¡GRATIS! Es la oportunidad perfecta para explorar nuevas fragancias o abastecerte de tus favoritas.
+                  </p>
+                  <div class="home__buttons">
+                    <a href="#" class="button"> Compra ahora</a>
+
+                      <i class="bx bx-right-arrow-alt button__icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+      
+      <section class="section category" id="about">
+        <h2 class="section__title">Productos</h2>
+        <div class="category__container container grid">
+          <div class="category__data">
+            <div class="contentImgCate">
+              <img src="./assets/img/splash2.jpg" class="category__img" />
+            </div>
+            <h3 class="category__title">Body Mist</h3>
+            <p class="category__description">
+              Expresa tu personalidad con tu aroma
+            </p>
+          </div>
+          <div class="category__data">
+            <div class="contentImgCate">
+              <img src="./assets/img/bodywash.jpg" class="category__img" />
+            </div>
+            <h3 class="category__title">Body Wash </h3>
+            <p class="category__description">
+              Limpieza y aroma garantizados
+            </p>
+          </div>
+          <div class="category__data">
+            <div class="contentImgCate">
+              <img src="./assets/img/candle1.jpg" class="category__img" />
+            </div>
+            <h3 class="category__title">Velas</h3>
+            <p class="category__description">
+              Manten tu hogar limpio y agradable
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- /*Deja tu correo*/ -->
+      <section class="section newsletter" id="new">
+        <div class="newsletter__container container">
+          <h2 class="section__title">Registrate para recibir promociones</h2>
+          <p class="newsletter__description">
+            Obten información acerca de nuevos productos. Directamente a su correo.
+          </p>
+          <form class="newsletter__form">
+            <input
+              type="text"
+              placeholder="Introduce tu correo electrónico"
+              class="newsletter__input"
+            />
+            <button class="button">Subscribirse</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer section" id="footer">
+      <div class="footer__container grid">
+        <div class="footer__content">
+          
+          <div class="footer__social">
+            <a class="footer__social-link" href="#">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a class="footer__social-link" href="#">
+              <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a class="footer__social-link" href="#">
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Acerca de</h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Contacto</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Materias Primas</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Nuevos</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Nuestros servicios
+          </h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Precios</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Descuentos</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Envio
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Nuestra compañía
+          </h3>
+          <ul class="footer__links">
+            
+            <li>
+              <a href="#" class="footer__link">
+                Sobre nosotras</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Nuestra mision</a>
+            </li>
+          </ul>
+        </div>
+        
+        
+       
+      </div>
+      <span class="footer__copy">&#169; Todos los derechos reservados</span>
+    </footer>
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    
+
+    <script src="./index.js"></script>
+ 
+</body>
+</html>
